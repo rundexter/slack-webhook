@@ -31,8 +31,10 @@ module.exports = _.merge({
         local_test_step: {
             input: {
                 text        : 'Dexter test fixture...success!',
-                channel     : '#dexter-commits'
-                //icon_emoji  : ':ghost:'
+                channel     : '#random',
+                username    : 'mybot',
+                webhook_url : 'https://hooks.slack.com/services/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',
+                icon_emoji  : ':ghost:'
             }
         }
     }

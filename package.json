@@ -1,5 +1,5 @@
 {
-  "name"        : "slack-send-message",
+  "name"        : "slack-webhook",
   "version"     : "0.0.3",
   "description" : "Send a slack message",
   "main"        : "index.js",
@@ -13,6 +13,6 @@
   },
   "repository": {
     "type" : "git",
-    "url"  : "https://github.com/rundexter/slack-send-message"
+    "url"  : "https://github.com/rundexter/slack-webhook"
   }
 }
