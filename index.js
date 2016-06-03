@@ -73,7 +73,7 @@ module.exports = {
                 return err || result.statusCode >= 400
                   ? deferred.reject({
                     error: err || result.text,
-                    body: result.body
+                    body: _.get(result, 'body')
                   })
                   : deferred.resolve({ response: result.text })
                ;
