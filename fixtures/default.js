@@ -33,7 +33,7 @@ module.exports = _.merge({
                 text        : 'Dexter test fixture...success!',
                 channel     : '#random',
                 username    : 'mybot',
-                webhook_url : 'https://hooks.slack.com/services/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',
+                webhook_url :"https://hooks.slack.com/services/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",
                 icon_emoji  : ':ghost:'
             }
         }

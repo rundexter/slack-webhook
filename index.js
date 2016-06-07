@@ -46,9 +46,6 @@ module.exports = {
             if(attachments.length) {
                 data.attachments  = attachments[idx] !== undefined ? attachments[idx] : attachments[0];
                 data.unfurl_links = false;
-
-                /* the attachments "array" actually needs to be a JSON encoded string. Weird. */
-                data.attachments = JSON.stringify( data.attachments );
             } else {
                 data.unfurl_links = true;
             }
